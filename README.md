@@ -12,7 +12,7 @@ pip install barr4crypt
 
 ## Usage
 
-Here's a quick example of how to use Rotocrypt:
+Here's a quick example of how to use barr4crypt:
 
 ```python
 from barr4crypt import encrypt
