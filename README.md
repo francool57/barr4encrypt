@@ -1,13 +1,13 @@
-# Rotocrypt
+# barr4crypt
 
-Rotocrypt is a simple rotation-based encryption tool that provides a unique way to encrypt text.
+barr4crypt is a simple rotation-based encryption tool that provides a unique way to encrypt text.
 
 ## Installation
 
-You can install Rotocrypt using pip:
+You can install barr4crypt using pip:
 
 ```py
-pip install rotocrypt
+pip install barr4crypt
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ pip install rotocrypt
 Here's a quick example of how to use Rotocrypt:
 
 ```python
-from rotocrypt import encrypt, id_generator
+from barr4crypt import encrypt, id_generator
 
 # Generate a random ID
 random_id = id_generator(10)
