@@ -15,11 +15,7 @@ pip install barr4crypt
 Here's a quick example of how to use Rotocrypt:
 
 ```python
-from barr4crypt import encrypt, id_generator
-
-# Generate a random ID
-random_id = id_generator(10)
-print(f"Random ID: {random_id}")
+from barr4crypt import encrypt
 
 # Encrypt a message
 message = "Hello, World!"
