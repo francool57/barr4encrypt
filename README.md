@@ -3,7 +3,6 @@
 barr4crypt is a simple rotation-based encryption tool that provides a unique way to encrypt text.
 
 ## Installation 
-# CURRENTLY NOT WORKING
 
 You can install barr4crypt using pip:
 
