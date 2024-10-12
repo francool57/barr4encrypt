@@ -21,7 +21,7 @@ from barr4 import encrypt, verify
 # Encrypt a message
 message = "Hello, World!"
 rot_value = 3
-encrypted = encrypt(message, rot=rot_value) # Output: 
+encrypted = encrypt(message, rot_value) # Output: 
 print(f"Encrypted message: {encrypted}")
 
 # Verify a string
