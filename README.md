@@ -23,6 +23,7 @@ rot_value = 3
 encrypted = encrypt(message, rot=rot_value) # Output: 
 print(f"Encrypted message: {encrypted}")
 
+# Verify a string
 string = "Hello, World!"
 verify_string = verify(encrypted, string, rot=3)
 print(verify_string) # Outputs: True
