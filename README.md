@@ -1,7 +1,7 @@
 # barr4crypt
 
-barr4crypt is a simple rotation-based encryption tool that provides a unique way to encrypt text.
-This method uses a dict like based system to encrypt and for addicional security encodes the final product in sha256.
+barr4crypt is a simple rotation-based hashing tool that provides a unique way to encrypt text.
+This method uses a dict like based system to encrypt and for addicional security hashes the final product in sha256.
 
 ## Installation
 
