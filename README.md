@@ -2,7 +2,7 @@
 
 barr4crypt is a simple rotation-based encryption tool that provides a unique way to encrypt text.
 
-## Installation 
+## Installation
 
 You can install barr4crypt using pip:
 
@@ -15,13 +15,17 @@ pip install barr4crypt
 Here's a quick example of how to use barr4crypt:
 
 ```python
-from barr4crypt import encrypt
+from barr4 import encrypt, verify
 
 # Encrypt a message
 message = "Hello, World!"
 rot_value = 3
-encrypted = encrypt(message, rot=rot_value)
+encrypted = encrypt(message, rot=rot_value) # Output: 
 print(f"Encrypted message: {encrypted}")
+
+string = "Hello, World!"
+verify_string = verify(encrypted, string, rot=3)
+print(verify_string) # Outputs: True
 ```
 
 ## License
